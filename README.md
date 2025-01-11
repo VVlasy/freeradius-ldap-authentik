@@ -48,7 +48,7 @@ Example Docker Compose Configuration
 ====================================
 
     radius:
-      image: vvlasy/freeradius-ldap:master
+      image: vvlasy/freeradius-ldap-authentik:master
       ports:
         - "1812:1812/udp"
         - "1813:1813/udp"
